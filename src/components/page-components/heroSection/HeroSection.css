@@ -1,0 +1,14 @@
+.hoso-icon{
+    position: sticky;
+    bottom: 30rem;
+    height: 150px;
+    width: 150px;
+  }
+  
+  @media screen and (max-width: 592px) {
+    .hoso-icon{
+    
+      height: 50px;
+      width: 50px;
+    }
+  }
