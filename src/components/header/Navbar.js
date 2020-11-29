@@ -23,7 +23,6 @@ function Navbar() {
 
     } 
    
-    const page = window.location.pathname;
 
     
 
