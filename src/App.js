@@ -1,7 +1,6 @@
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
-import Navbar from './components/header/Navbar';
 import Home from './components/pages/home/Home';
 import Android from './components/pages/android/Android';
 import GadgetLocalHub from './components/pages/gadget/Gadget';
@@ -15,7 +14,7 @@ function App() {
   return (
     <div className="App">
          <Router>
-        <Navbar />
+           
         <Switch>
           <Route path='/' exact component={Main} />
           <Route path='/Home' exact component={Home} />

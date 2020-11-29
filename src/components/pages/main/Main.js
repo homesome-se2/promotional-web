@@ -1,9 +1,9 @@
 import React from 'react'
-
+import MainSection from '../../page-components/mainSection/MainSection';
 function Main() {
     return (
         <>
-       <h1>Main - under construction</h1>
+       <MainSection />
         </>
     )
 }
