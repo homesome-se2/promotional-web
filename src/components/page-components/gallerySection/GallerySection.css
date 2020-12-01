@@ -1,0 +1,88 @@
+
+.prevImg{
+    margin: 15px;
+    box-shadow: 5px 5px 5px rgb(206, 203, 203);
+    
+ }
+ 
+ .wave1{
+    background: url('../../../images/previewSection/wave.png');
+    align-self: center;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+
+ }
+ 
+ .wave12{
+    background: url('../../../images/previewSection/wave2.png');
+    align-self: center;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+
+ }
+
+ .square1{
+    background: url('../../../images/previewSection/square.png');
+    align-self: center;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+
+ }
+ 
+ .pointy1{
+    background: url('../../../images/previewSection/pointy.png');
+    align-self: center;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+
+ }
+
+ .galleryContainer{
+    position: relative;
+ }
+ 
+ .galleryContainer:hover > #galleryTitle{
+    width: 30%;
+    transition:  2s,  2s,  2s;
+    font-size: 40px;
+    border-radius: 25px;
+  
+ }
+ 
+ #galleryTitle{
+ color: rgb(255, 255, 255);
+ text-align: center;
+ border-top: 3px solid #ffff;
+ border-bottom: 3px solid #ffff;
+ border-left: 3px solid #ffff;
+ border-right: 3px solid #ffff;
+ padding: 12px 32px;
+ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+ font-size: 55px;
+ letter-spacing: -0.6px;
+ word-spacing: 4.4px;
+ font-weight: 700;
+ background-color:rgba(0,0,0,0.6);
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ transition:  2s,  2s,  2s;
+ 
+ }
+ 
+ 
+ 
