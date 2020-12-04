@@ -1,7 +1,7 @@
 import React from 'react'
 import './LinkBtn.css';
 
-function LinkBtn() {
+function LinkBtn(props) {
     return (
         <>
       <a target="_blank" rel="noopener noreferrer" href={props.src}>

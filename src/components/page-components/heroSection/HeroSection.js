@@ -4,8 +4,8 @@ import * as AiIcons from "react-icons/ai"
 import * as FaIcons from "react-icons/fa"
 import Navbar from '../../header/Navbar';
 import './HeroSection.css'
-import hoso_icon from '../../images/hoso_icon.svg';
-import {HeroContainer,HeroBackground,HeroContent,TopLine ,Heading, Text_content, Button_Wrapper,Divider }  from './HeroElements';
+import hoso_icon from '../../images/hoso-icon.svg';
+import {HeroContainer,HeroBackground,HeroContent,TopLine ,Heading, Text_content, Button_Wrapper,Divider }  from './HeroSectionElement';
 
 function HeroSection({
     topLine,heading,description,androidBtn,websiteBtn,pattern
