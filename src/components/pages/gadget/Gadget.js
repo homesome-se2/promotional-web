@@ -1,11 +1,15 @@
 import React from 'react'
-import Navbar from '../../header/Navbar';
+import HeroSection from '../../page-components/heroSection/HeroSection';
+import FeatureSection from '../../page-components/featureSection/FeatureSection';
+import GallerySection from '../../page-components/gallerySection/GallerySection';
+import {HeroInfo, InfoSectionInfo, PreviewImg} from './Data';
 
 function Gadget() {
     return (
         <>
-        <Navbar />
-        <h1>Gadget - under construction</h1>
+        <HeroSection  {...HeroInfo}         />
+        <FeatureSection {...InfoSectionInfo} />
+        <GallerySection {...PreviewImg}      />
         </>
     )
 }
