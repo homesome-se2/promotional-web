@@ -68,10 +68,10 @@ background-color: #1a83ff;
 .navbar-toggle{
     position:relative;
     top:-13px;
-    right:5px;
+    right:11px;
     background-color: #161616;
     width:110%;
-    height: 6.4rem;
+    height: 5.56rem;
     display:flex;
     align-items: center;
    

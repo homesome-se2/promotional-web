@@ -5,8 +5,8 @@
     
  }
  
- .wave1{
-    background: url('../../../images/previewSection/wave.png');
+ .wave1{  
+    background: url('../../images/gallerySection/wave.png');
     align-self: center;
     width: 100%;
     height: auto;
@@ -17,7 +17,7 @@
  }
  
  .wave12{
-    background: url('../../../images/previewSection/wave2.png');
+    background: url('../../images/gallerySection/wave2.png');
     align-self: center;
     width: 100%;
     height: auto;
@@ -28,7 +28,7 @@
  }
 
  .square1{
-    background: url('../../../images/previewSection/square.png');
+    background: url('../../images/gallerySection/square.png');
     align-self: center;
     width: 100%;
     height: auto;
@@ -39,7 +39,7 @@
  }
  
  .pointy1{
-    background: url('../../../images/previewSection/pointy.png');
+    background: url('../../images/gallerySection/pointy.png');
     align-self: center;
     width: 100%;
     height: auto;

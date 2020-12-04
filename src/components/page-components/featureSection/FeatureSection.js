@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './FeatureSection.css';
 import Card from '../../page-components/cards/FeatureCard';
 import Carousel from "react-elastic-carousel";

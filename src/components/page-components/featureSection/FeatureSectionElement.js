@@ -5,7 +5,7 @@ display: flex;
 margin: auto;
 margin-top: 5%;
 justify-content: center;
-height: 1050px;
+height: 1150px;
 z-index: 1;
 
 `
