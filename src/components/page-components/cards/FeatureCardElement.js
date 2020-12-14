@@ -33,41 +33,36 @@ export const Card = styled.div`
     &:hover .slideUp {
         opacity: 1;
         transform: translateY(-25px);
+        color: white;
     }
 
-    
-
     @media screen and (max-width: 768px){
-        width: 400px;
+        width: 380px;
         height: 480px;
-
         &:before {
-
-            width: 400px;
+            width: 380px;
             height: 480px;
         }
     
       }
 
       @media screen and (max-width: 868px){
-        width: 420px;
+        width: 430px;
         height: 520px;
-
         &:before {
 
-            width: 440px;
+            width: 430px;
             height: 520px;
         }
     
       }
 
       @media screen and (max-width: 968px){
-        width: 420px;
+        width: 440px;
         height: 540px;
-
         &:before {
 
-            width: 420px;
+            width: 440px;
             height: 540px;
         }
     
@@ -83,12 +78,13 @@ export const Card = styled.div`
       position: absolute;
       top: 0;
       left: 0;
+
+    
         
       `;
 
       export const Heading = styled.p`
       font-size: 30px;
-
       @media screen and (max-width: 501px){
         font-size: 15px;
     }
@@ -103,7 +99,7 @@ export const Card = styled.div`
      color: #fff;
      opacity: 1;
      transition: 0.5s ease-in-out;
-
+     color: black;   
      @media screen and (max-width: 501px){
         top:50%;
     }
