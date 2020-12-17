@@ -83,7 +83,7 @@ function MainSection() {
             <About id="aboutSection" onMouseEnter={() => aboutBox()} onMouseLeave={() => resetAboutBox()}>      
             <textWrapper className="aboutTextWrapper">  
             <Title>About</Title>
-            <Title2><a rel="noopener noreferrer" >Visit the about page</a></Title2>
+            <Title2><a rel="noopener noreferrer" href="/About" >Visit the about page</a></Title2>
             </textWrapper>  
             </About>
             

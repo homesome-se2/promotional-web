@@ -1,0 +1,15 @@
+.GhIcon{
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+
+.GhIcon:hover{
+    transform: scale(1.3);
+}
+
+.GhIcon i{
+    color: #444;
+}
