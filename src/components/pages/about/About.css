@@ -1,0 +1,14 @@
+/*.TheTeamHome{
+   background-image: Url('../../images/hoso-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center top;  
+}
+*/
+.white{
+    background-color: white;
+    height: 550px;
+}
+
+.regular{
+    height: 550px;
+}
