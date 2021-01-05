@@ -3,6 +3,7 @@ import './FeatureSection.css';
 import Card from '../../page-components/cards/FeatureCard';
 import Carousel from "react-elastic-carousel";
 import {InfoSectionContainer, TopLine , Text } from './FeatureSectionElement';
+import Parser from 'html-react-parser';
 
 function FeatureSection({
     items,pattern
@@ -48,7 +49,7 @@ function FeatureSection({
                   </div> 
                     ))}
                     </Carousel>
-                <Text>{mainText}</Text>  
+                    {<Text>{Parser(mainText)}</Text>}  
             </div>
             </InfoSectionContainer>  
         </>
